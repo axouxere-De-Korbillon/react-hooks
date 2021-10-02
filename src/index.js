@@ -1,6 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Saludo from './saludo.js';
 
-import App from "./App";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+ <div>
+  <Saludo nombre=" Leixandra"/>
+ 
+</div>
+  , document.getElementById("root"));
