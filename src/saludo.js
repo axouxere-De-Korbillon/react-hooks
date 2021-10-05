@@ -9,7 +9,7 @@ import "./saludo.css";
 //   );
 
 
-export default function Saludo ({nombre}){
-  const misaludo = () => <h1>Hola { nombre }</h1>;
+export default function Saludo ({nombre,apellido}){
+  const misaludo = () => <h1>Hola { nombre } { apellido }</h1>;
   return <div className="misaludo">{misaludo()}</div>;
 }
